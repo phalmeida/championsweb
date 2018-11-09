@@ -1,0 +1,16 @@
+version: '3'
+
+services:
+  mysql:
+    image: mysql:5.7
+    volumes:
+      - /var/lib/mysql
+    ports:
+      - "3306:3306"
+    environment:
+      MYSQL_ROOT_PASSWORD: championsweb
+      MYSQL_USER: championsweb
+      MYSQL_PASSWORD: championsweb123
+      MYSQL_DATABASE: championsweb
+    healthcheck:
+      test: mysqladmin ping --silent
