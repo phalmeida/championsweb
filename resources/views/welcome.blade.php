@@ -71,9 +71,6 @@
     </div>
 </section><!-- End Home Section -->
 
-
-
-
 <!-- Navigation -->
 <header class="header">
     <nav class="navbar navbar-custom" role="navigation">
