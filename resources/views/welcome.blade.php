@@ -58,10 +58,10 @@
         <div class="social-icons">
             <ul class="list-inline">
                 <li><a target="_blank" href="https://www.facebook.com/philipeph3"><i class="fa fa-facebook"></i></a></li>
-                <li><a target="_blank" href=""><i class="fa fa-twitter"></i></a></li>
+                <li><a target="_blank" href="https://twitter.com/philipeph3"><i class="fa fa-twitter"></i></a></li>
                 <li><a target="_blank" href="https://plus.google.com/u/0/102288679928658298196/posts"><i class="fa fa-google-plus"></i></a></li>
                 <li><a target="_blank" href="https://br.linkedin.com/in/philipeallanalmeida"><i class="fa fa-linkedin"></i></a></li>
-                <li><a target="_blank" href="https://github.com/philipealmeida"><i class="fa fa-github-alt"></i></a></li>
+                <li><a target="_blank" href="https://github.com/phalmeida"><i class="fa fa-github-alt"></i></a></li>
             </ul>
         </div> <!-- /.social-icons -->
     </div>
