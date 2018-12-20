@@ -59,9 +59,22 @@
     <!-- responsive CSS
 		============================================ -->
     <link rel="stylesheet" href="css/responsive.css">
+
+    <!-- select2 CSS
+		============================================ -->
+    <link rel="stylesheet" href="css/select2/select2.min.css">
+
+    <!-- chosen CSS
+		============================================ -->
+    <link rel="stylesheet" href="css/chosen/bootstrap-chosen.css">
+
     <!-- modernizr JS
 		============================================ -->
     <script src="js/vendor/modernizr-2.8.3.min.js"></script>
+
+    <!-- summernote CSS
+    ============================================ -->
+    <link rel="stylesheet" href="css/summernote/summernote.css">
 </head>
 
 <body>
@@ -792,7 +805,7 @@
                                     <ul class="mobile-menu-nav">
                                         <li><a data-toggle="collapse" data-target="#Charts" href="#">Início <span class="admin-project-icon edu-icon edu-down-arrow"></span></a>
                                             <ul class="collapse dropdown-header-top">
-                                                <li><a href="index.html">Dashboard</a></li>
+                                                <li><a href="perguntas.html">Perguntas</a></li>
                                             </ul>
                                         </li>
                                         <li><a href="#">Eventos</a></li>
@@ -875,7 +888,7 @@
                                         <ul class="breadcome-menu">
                                             <li><a href="#">Início</a> <span class="bread-slash">/</span>
                                             </li>
-                                            <li><span class="bread-blod">Dashboard</span>
+                                            <li><span class="bread-blod">Perguntas</span>
                                             </li>
                                         </ul>
                                     </div>
@@ -886,146 +899,98 @@
                 </div>
             </div>
         </div>
-        <div class="analytics-sparkle-area">
+
+        <!-- Form Start -->
+        <div class="product-status mg-b-15">
             <div class="container-fluid">
                 <div class="row">
-                    <div class="col-lg-3 col-md-6 col-sm-6 col-xs-12">
-                        <div class="analytics-sparkle-line reso-mg-b-30">
-                            <div class="analytics-content">
-                                <h5>Ciências da Computação</h5>
-                                <h2>R$ <span class="counter">5000</span> <span class="tuition-fees">Mensalidades</span></h2>
-                                <span class="text-success">20%</span>
-                                <div class="progress m-b-0">
-                                    <div class="progress-bar progress-bar-success" role="progressbar" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100" style="width:20%;"> <span class="sr-only">20% Complete</span> </div>
-                                </div>
+                    <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                        <div class="product-status-wrap drp-lst">
+                            <h4>Lista de perguntas</h4>
+                            <div class="add-product">
+                                <a href="perguntas.html">Adicionar pergunta</a>
                             </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-3 col-md-6 col-sm-6 col-xs-12">
-                        <div class="analytics-sparkle-line reso-mg-b-30">
-                            <div class="analytics-content">
-                                <h5>Ciências Contabeís</h5>
-                                <h2>R$ <span class="counter">3000</span> <span class="tuition-fees">Mensalidades</span></h2>
-                                <span class="text-danger">30%</span>
-                                <div class="progress m-b-0">
-                                    <div class="progress-bar progress-bar-danger" role="progressbar" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100" style="width:30%;"> <span class="sr-only">230% Complete</span> </div>
-                                </div>
+                            <div class="asset-inner">
+                                <table>
+                                    <tr>
+                                        <th>Id Exibição</th>
+                                        <th class="text-center" >Ano Cursado</th>
+                                        <th>Descritor</th>
+                                        <th> Ações </th>
+                                    </tr>
+                                    <tr>
+                                        <td>86954</td>
+                                        <td class="text-center">9</td>
+                                        <td>Usado para expressar uma fala, destacar algum objeto e também quando se tem palavras estrangeiras no texto.</td>
+                                        <td>
+                                            <button data-toggle="tooltip" title="Editar" class="pd-setting-ed"><i class="fa fa-pencil-square-o" aria-hidden="true"></i></button>
+                                            <button data-toggle="tooltip" title="Excluir" class="pd-setting-ed"><i class="fa fa-trash-o" aria-hidden="true"></i></button>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>86941</td>
+                                        <td class="text-center" >9</td>
+                                        <td>Localize as relações entre recursos expressivos e efeitos de sentido</td>
+                                        <td>
+                                            <button data-toggle="tooltip" title="Editar" class="pd-setting-ed"><i class="fa fa-pencil-square-o" aria-hidden="true"></i></button>
+                                            <button data-toggle="tooltip" title="Excluir" class="pd-setting-ed"><i class="fa fa-trash-o" aria-hidden="true"></i></button>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>86912</td>
+                                        <td class="text-center">9</td>
+                                        <td>Identifique o efeito de sentido decorrente da pontuação e outras notações:</td>
+                                        <td>
+                                            <button data-toggle="tooltip" title="Editar" class="pd-setting-ed"><i class="fa fa-pencil-square-o" aria-hidden="true"></i></button>
+                                            <button data-toggle="tooltip" title="Excluir" class="pd-setting-ed"><i class="fa fa-trash-o" aria-hidden="true"></i></button>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>86952</td>
+                                        <td class="text-center">9</td>
+                                        <td>Reconheça o efeito de sentido decorrente da escolha de determinada palavra ou expressão (Descritor 18)</td>
+                                        <td>
+                                            <button data-toggle="tooltip" title="Editar" class="pd-setting-ed"><i class="fa fa-pencil-square-o" aria-hidden="true"></i></button>
+                                            <button data-toggle="tooltip" title="Excluir" class="pd-setting-ed"><i class="fa fa-trash-o" aria-hidden="true"></i></button>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>86956</td>
+                                        <td class="text-center" >9</td>
+                                        <td>Reconheça o efeito de sentido decorrente dos recursos ortográficos e/ou morfossintáticos</td>
+                                        <td>
+                                            <button data-toggle="tooltip" title="Editar" class="pd-setting-ed"><i class="fa fa-pencil-square-o" aria-hidden="true"></i></button>
+                                            <button data-toggle="tooltip" title="Excluir" class="pd-setting-ed"><i class="fa fa-trash-o" aria-hidden="true"></i></button>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>86996</td>
+                                        <td class="text-center">9</td>
+                                        <td>Reconheça o efeito de sentido decorrente da exploração de recursos ortográficos e/ou morfossintáticos.</td>
+                                        <td>
+                                            <button data-toggle="tooltip" title="Editar" class="pd-setting-ed"><i class="fa fa-pencil-square-o" aria-hidden="true"></i></button>
+                                            <button data-toggle="tooltip" title="Excluir" class="pd-setting-ed"><i class="fa fa-trash-o" aria-hidden="true"></i></button>
+                                        </td>
+                                    </tr>
+                                </table>
                             </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-3 col-md-6 col-sm-6 col-xs-12">
-                        <div class="analytics-sparkle-line reso-mg-b-30 table-mg-t-pro dk-res-t-pro-30">
-                            <div class="analytics-content">
-                                <h5>Engenharia Elétrica</h5>
-                                <h2>R$ <span class="counter">2000</span> <span class="tuition-fees">Mensalidades</span></h2>
-                                <span class="text-info">60%</span>
-                                <div class="progress m-b-0">
-                                    <div class="progress-bar progress-bar-info" role="progressbar" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100" style="width:60%;"> <span class="sr-only">20% Complete</span> </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-3 col-md-6 col-sm-6 col-xs-12">
-                        <div class="analytics-sparkle-line table-mg-t-pro dk-res-t-pro-30">
-                            <div class="analytics-content">
-                                <h5>Direito</h5>
-                                <h2>R$ <span class="counter">3500</span> <span class="tuition-fees">Mensalidades</span></h2>
-                                <span class="text-inverse">80%</span>
-                                <div class="progress m-b-0">
-                                    <div class="progress-bar progress-bar-inverse" role="progressbar" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100" style="width:80%;"> <span class="sr-only">230% Complete</span> </div>
-                                </div>
+                            <div class="custom-pagination">
+                                <nav aria-label="Page navigation example">
+                                    <ul class="pagination">
+                                        <li class="page-item"><a class="page-link" href="#">Anterior</a></li>
+                                        <li class="page-item"><a class="page-link" href="#">1</a></li>
+                                        <li class="page-item"><a class="page-link" href="#">2</a></li>
+                                        <li class="page-item"><a class="page-link" href="#">3</a></li>
+                                        <li class="page-item"><a class="page-link" href="#">Próximo</a></li>
+                                    </ul>
+                                </nav>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
-        <div class="product-sales-area mg-tb-30">
-            <div class="container-fluid">
-                <div class="row">
-                    <div class="col-lg-9 col-md-12 col-sm-12 col-xs-12">
-                        <div class="product-sales-chart">
-                            <div class="portlet-title">
-                                <div class="row">
-                                    <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
-                                        <div class="caption pro-sl-hd">
-                                            <span class="caption-subject"><b>Lucro Universitário</b></span>
-                                        </div>
-                                    </div>
-                                    <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
-                                        <div class="actions graph-rp graph-rp-dl">
-                                            <p>Todos os ganhos estão em milhões de R$</p>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <ul class="list-inline cus-product-sl-rp">
-                                <li>
-                                    <h5><i class="fa fa-circle" style="color: #011627;"></i>Computação</h5>
-                                </li>
-                                <li>
-                                    <h5><i class="fa fa-circle" style="color: #2EC4B6;"></i>Contabilidade</h5>
-                                </li>
-                                <li>
-                                    <h5><i class="fa fa-circle" style="color: #FF9F1C;"></i>Elétrica</h5>
-                                </li>
-                            </ul>
-                            <div id="extra-area-chart" style="height: 356px;"></div>
-                        </div>
-                    </div>
-                    <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12">
-                        <div class="white-box analytics-info-cs mg-b-10 res-mg-b-30 res-mg-t-30 table-mg-t-pro-n tb-sm-res-d-n dk-res-t-d-n">
-                            <h3 class="box-title">Total de Visitas</h3>
-                            <ul class="list-inline two-part-sp">
-                                <li>
-                                    <div id="sparklinedash"></div>
-                                </li>
-                                <li class="text-right sp-cn-r"><i class="fa fa-level-up" aria-hidden="true"></i> <span class="counter text-success">1500</span></li>
-                            </ul>
-                        </div>
-                        <div class="white-box analytics-info-cs mg-b-10 res-mg-b-30 tb-sm-res-d-n dk-res-t-d-n">
-                            <h3 class="box-title">Visualizações da pagina</h3>
-                            <ul class="list-inline two-part-sp">
-                                <li>
-                                    <div id="sparklinedash2"></div>
-                                </li>
-                                <li class="text-right graph-two-ctn"><i class="fa fa-level-up" aria-hidden="true"></i> <span class="counter text-purple">3000</span></li>
-                            </ul>
-                        </div>
-                        <div class="white-box analytics-info-cs mg-b-10 res-mg-b-30 tb-sm-res-d-n dk-res-t-d-n">
-                            <h3 class="box-title">Visitante único</h3>
-                            <ul class="list-inline two-part-sp">
-                                <li>
-                                    <div id="sparklinedash3"></div>
-                                </li>
-                                <li class="text-right graph-three-ctn"><i class="fa fa-level-up" aria-hidden="true"></i> <span class="counter text-info">5000</span></li>
-                            </ul>
-                        </div>
-                        <div class="white-box analytics-info-cs table-dis-n-pro tb-sm-res-d-n dk-res-t-d-n">
-                            <h3 class="box-title">Taxa de rejeição</h3>
-                            <ul class="list-inline two-part-sp">
-                                <li>
-                                    <div id="sparklinedash4"></div>
-                                </li>
-                                <li class="text-right graph-four-ctn"><i class="fa fa-level-down" aria-hidden="true"></i> <span class="text-danger"><span class="counter">18</span>%</span>
-                                </li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-
-        <div class="product-sales-area mg-tb-30">
-            <div class="container-fluid">
-                <div class="row">
-
-                            <div id="morris-area-chart"></div>
-
-
-                </div>
-            </div>
-        </div>
+        <!-- Form End-->
 
         <div class="footer-copyright-area">
             <div class="container-fluid">
@@ -1079,6 +1044,17 @@
     <script src="js/metisMenu/metisMenu-active.js"></script>
     <!-- morrisjs JS
 		============================================ -->
+
+    <!-- chosen JS
+    ============================================ -->
+    <script src="js/chosen/chosen.jquery.js"></script>
+    <script src="js/chosen/chosen-active.js"></script>
+    <!-- select2 JS
+		============================================ -->
+    <script src="js/select2/select2.full.min.js"></script>
+    <script src="js/select2/select2-active.js"></script>
+    <!-- ionRangeSlider JS ============================================ -->
+
     <script src="js/morrisjs/raphael-min.js"></script>
     <script src="js/morrisjs/morris.js"></script>
     <script src="js/morrisjs/morris-active.js"></script>
@@ -1101,6 +1077,12 @@
     <!-- tawk chat JS
 		============================================ -->
     <script src="js/tawk-chat.js"></script>
+
+    <!-- summernote JS
+		============================================ -->
+    <script src="js/summernote/summernote.min.js"></script>
+    <script src="js/summernote/summernote-active.js"></script>
+
 </body>
 
 </html>
