@@ -57,9 +57,6 @@
 
         <div class="social-icons">
             <ul class="list-inline">
-                <li><a target="_blank" href="https://www.facebook.com/philipeph3"><i class="fa fa-facebook"></i></a></li>
-                <li><a target="_blank" href="https://twitter.com/philipeph3"><i class="fa fa-twitter"></i></a></li>
-                <li><a target="_blank" href="https://plus.google.com/u/0/102288679928658298196/posts"><i class="fa fa-google-plus"></i></a></li>
                 <li><a target="_blank" href="https://br.linkedin.com/in/philipeallanalmeida"><i class="fa fa-linkedin"></i></a></li>
                 <li><a target="_blank" href="https://github.com/phalmeida"><i class="fa fa-github-alt"></i></a></li>
             </ul>
@@ -114,9 +111,7 @@
                     </div>
                     <ul>
                         <li><strong>Nome:</strong> Philipe Allan Almeida</li>
-                        <li><strong>Data de Nascimento:</strong> 28/01/1992</li>
                         <li><strong>Nacionalidade:</strong> Brasileira </li>
-                        <li><strong>Telefone:</strong> (061) 99192 9263</li>
                         <li><strong>E-mail:</strong> philipe.almeida@outlook.com</li>
                     </ul>
                 </div>
@@ -126,17 +121,17 @@
                 <div class="short-info wow fadeInUp">
                     <h3>Resumo</h3>
                     <p>Um profissional altamente criativo, inovador e competente com ampla experiência em layout , design e codificação de sistemas.
-                        Possuindo amplo conhecimento no desenvolvimento de aplicações web e scripts usando as linguagens de programação PHP e Java.</p>
+                        Possuindo amplo conhecimento no desenvolvimento de aplicações web.</p>
                 </div>
 
                 <div class="short-info wow fadeInUp">
                     <h3>O que eu faço?</h3>
-                    <p>Atualmente tenho trabalhado como Desenvolvedor Web e Instrutor da Escola de Administração Fazendária – ESAF.</p>
+                    <p>Atualmente tenho trabalhado como Arquiteto de Software.</p>
 
                     <ul class="list-check">
+                        <li>Arquiteto de Software</li>
                         <li>Analista Desenvolvedor</li>
                         <li>Palestrante </li>
-                        <li>Web Designer</li>
                         <li>Instrutor</li>
                         <li>Consultor</li>
                     </ul>
@@ -307,96 +302,6 @@
     <div class="container">
         <h2 class="section-title wow fadeInUp">Conhecimentos</h2>
 
-        <div class="row">
-            <div class="col-md-6">
-                <div class="skill-progress">
-                    <div class="skill-title"><h3>PHP</h3></div>
-                    <div class="progress">
-                        <div class="progress-bar six-sec-ease-in-out" role="progressbar" aria-valuenow="95" aria-valuemin="0" aria-valuemax="100" ><span>95%</span>
-                        </div>
-                    </div><!-- /.progress -->
-                </div><!-- /.skill-progress -->
-
-                <div class="skill-progress">
-                    <div class="skill-title"><h3>Java</h3></div>
-                    <div class="progress">
-                        <div class="progress-bar six-sec-ease-in-out" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" ><span>80%</span>
-                        </div>
-                    </div><!-- /.progress -->
-                </div><!-- /.skill-progress -->
-                <div class="skill-progress">
-                    <div class="skill-title"><h3>Web Designer</h3></div>
-                    <div class="progress">
-                        <div class="progress-bar six-sec-ease-in-out" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" ><span>75%</span>
-                        </div>
-                    </div><!-- /.progress -->
-                </div><!-- /.skill-progress -->
-                <div class="skill-progress">
-                    <div class="skill-title"><h3>SQL</h3></div>
-                    <div class="progress">
-                        <div class="progress-bar six-sec-ease-in-out" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" ><span>80%</span>
-                        </div>
-                    </div><!-- /.progress -->
-                </div><!-- /.skill-progress -->
-            </div><!-- /.col-md-6 -->
-
-            <div class="col-md-6">
-
-                <div class="skill-progress">
-                    <div class="skill-title"><h3>QlikView</h3></div>
-                    <div class="progress">
-                        <div class="progress-bar six-sec-ease-in-out" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100" ><span>70%</span>
-                        </div>
-                    </div><!-- /.progress -->
-                </div><!-- /.skill-progress -->
-
-                <div class="skill-progress">
-                    <div class="skill-title"><h3>Ágeis</h3></div>
-                    <div class="progress">
-                        <div class="progress-bar six-sec-ease-in-out" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" ><span>80%</span>
-                        </div>
-                    </div><!-- /.progress -->
-                </div><!-- /.skill-progress -->
-                <div class="skill-progress">
-                    <div class="skill-title"><h3>RUP & UML</h3></div>
-                    <div class="progress">
-                        <div class="progress-bar six-sec-ease-in-out" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" ><span>80%</span>
-                        </div>
-                    </div><!-- /.progress -->
-                </div><!-- /.skill-progress -->
-                <div class="skill-progress">
-                    <div class="skill-title"><h3>Pacote Office</h3></div>
-                    <div class="progress">
-                        <div class="progress-bar six-sec-ease-in-out" role="progressbar" aria-valuenow="95" aria-valuemin="0" aria-valuemax="100" ><span>95%</span>
-                        </div>
-                    </div><!-- /.progress -->
-                </div><!-- /.skill-progress -->
-            </div><!-- /.col-md-6 -->
-        </div><!-- /.row -->
-
-        <div class="skill-chart text-center">
-            <h3>Aprovação nas Certificações</h3>
-        </div>
-
-        <div class="row more-skill text-center">
-            <div class="col-xs-6 col-sm-6 col-md-6">
-                <div class="chart" data-percent="80" data-color="e74c3c">
-                    <span class="percent"></span>
-                    <div class="chart-text">
-                        <span>ITIL® V3 Foundation Certificate in IT Service Management <br> RN:4451780 </span>
-                    </div>
-                </div>
-            </div>
-            <div class="col-xs-6 col-sm-6 col-md-6">
-                <div class="chart" data-percent="95" data-color="2ecc71">
-                    <span class="percent"></span>
-                    <div class="chart-text">
-                        <span>COBIT Foundation 4.1 <br> RN:769964 </span>
-                    </div>
-                </div>
-            </div>
-        </div>
-
     </div><!-- /.container -->
 </section><!-- End Skills Section -->
 
@@ -415,72 +320,7 @@
                 </ul>
         -->
         <div class="row">
-            <div id="grid">
-                <div class="portfolio-item col-xs-12 col-sm-4 col-md-3" data-groups='["all", "identety", "interface"]'>
-                    <div class="portfolio-bg">
-                        <div class="portfolio">
-                            <div class="tt-overlay"></div>
-                            <div class="links text-center">
-
-                                <a class="image-link" href="assets/images/works/portfolio-1.jpg"><i class="fa fa-search-plus"></i></a>
-
-                            </div><!-- /.links -->
-                            <img src="assets/images/works/portfolio-1.jpg" alt="image">
-                            <div class="portfolio-info">
-                                <h3>Sistema de Informações do Serviço de Convivência e Fortalecimento de Vínculos</h3>
-                            </div><!-- /.portfolio-info -->
-                        </div><!-- /.portfolio -->
-                    </div><!-- /.portfolio-bg -->
-                </div><!-- /.portfolio-item -->
-
-
-                <div class="portfolio-item col-xs-12 col-sm-4 col-md-3" data-groups='["all", "interface"]'>
-                    <div class="portfolio-bg">
-                        <div class="portfolio">
-                            <div class="tt-overlay"></div>
-                            <div class="links text-center">
-                                <a class="image-link" href="assets/images/works/portfolio-3.jpg"><i class="fa fa-search-plus"></i></a>
-
-                            </div><!-- /.links -->
-                            <img src="assets/images/works/portfolio-3.jpg" alt="image">
-                            <div class="portfolio-info">
-                                <h3>Relatórios Gerenciais</h3>
-                            </div><!-- /.portfolio-info -->
-                        </div><!-- /.portfolio -->
-                    </div><!-- /.portfolio-bg -->
-                </div><!-- /.portfolio-item -->
-                <div class="portfolio-item col-xs-12 col-sm-4 col-md-3" data-groups='["all", "identety", "design"]'>
-                    <div class="portfolio-bg">
-                        <div class="portfolio">
-                            <div class="tt-overlay"></div>
-                            <div class="links text-center">
-                                <a class="image-link" href="assets/images/works/portfolio-4.jpg"><i class="fa fa-search-plus"></i></a>
-
-                            </div><!-- /.links -->
-                            <img src="assets/images/works/portfolio-4.jpg" alt="image">
-                            <div class="portfolio-info">
-                                <h3>Gerenciador de Partidas</h3>
-                            </div><!-- /.portfolio-info -->
-                        </div><!-- /.portfolio -->
-                    </div><!-- /.portfolio-bg -->
-                </div><!-- /.portfolio-item -->
-                <div class="portfolio-item col-xs-12 col-sm-4 col-md-3" data-groups='["all", "identety", "design"]'>
-                    <div class="portfolio-bg">
-                        <div class="portfolio">
-                            <div class="tt-overlay"></div>
-                            <div class="links text-center">
-
-                                <a class="image-link" href="assets/images/works/portfolio-5.jpg"><i class="fa fa-search-plus"></i></a>
-
-                            </div><!-- /.links -->
-                            <img src="assets/images/works/portfolio-5.jpg" alt="image">
-                            <div class="portfolio-info">
-                                <h3>Criação de sites e sistemas web</h3>
-                            </div><!-- /.portfolio-info -->
-                        </div><!-- /.portfolio -->
-                    </div><!-- /.portfolio-bg -->
-                </div><!-- /.portfolio-item -->
-            </div><!-- /#grid -->
+           
         </div><!-- /.row -->
     </div><!-- /.container -->
 </section><!-- End Works Section -->
